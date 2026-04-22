@@ -17,7 +17,7 @@ const phasermsg = () => {
 }   
 
 export default defineConfig({
-    base: './',
+    base: process.env.GITHUB_PAGES ? '/WaliDEVOXXDeploy/' : './',
     logLevel: 'warn',
     build: {
         rollupOptions: {

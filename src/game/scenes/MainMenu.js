@@ -19,6 +19,12 @@ export class MainMenu extends Scene
             align: 'center'
         }).setOrigin(0.5);
 
+        this.add.text(512, 550, 'Walid BEN AYYAD DEVOXX 2026', {
+            fontFamily: 'Arial Black', fontSize: 24, color: '#ffcc00',
+            stroke: '#000000', strokeThickness: 4,
+            align: 'center'
+        }).setOrigin(0.5);
+
         this.input.once('pointerdown', () => {
 
             this.scene.start('Game');
