@@ -22,7 +22,7 @@ export class MainMenu extends Scene {
       .setOrigin(0.5);
 
     this.add
-      .text(512, 550, "Walid BEN AYYAD DEVOXX 2026", {
+      .text(512, 550, "Walid BEN AYYAD Au DEVOXX", {
         fontFamily: "Arial Black",
         fontSize: 24,
         color: "#ffcc00",
